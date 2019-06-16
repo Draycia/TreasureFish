@@ -1,0 +1,45 @@
+# This means every 20 levels in Fishing, the chance increases by 1%
+# Might want to change this to 0.005 if using retro mode
+PercentagePerLevel: 0.05
+
+# The number in seconds that the mob will stay alive
+TreasureMobLifeDuration: 10
+
+# Should the treasure mob be allowed to target / attack players?
+TreasureMobAttacksPlayers: false
+
+# Message formats
+TreasureMobSpawnMessage: "&aA treasure mob has spawned!\n&aYou have {duration} seconds to kill it!"
+TreasureMobDespawnMessage: "&cThe treasure mob has despawned!"
+TreasureMobSpawnChanceMessage: "&cYour treasure mob spawn chance: {chance}"
+PluginReloaded: "&aThe plugin has been reloaded!"
+
+# Chance if mcMMO is not installed or player data is not loaded
+BackupTreasureMobChance: 1
+
+# Treasure fish drops
+TreasureDrops:
+  DIAMOND:
+    MinAmount: 1
+    MaxAmount: 3
+    Chance: 100
+  NAUTILUS_SHELL:
+    MinAmount: 1
+    MaxAmount: 1
+    Chance: 33
+  COD:
+    MinAmount: 1
+    MaxAmount: 1
+    Chance: 25
+  SALMON:
+    MinAmount: 1
+    MaxAmount: 1
+    Chance: 25
+  TROPICAL_FISH:
+    MinAmount: 1
+    MaxAmount: 1
+    Chance: 25
+  PUFFERFISH:
+    MinAmount: 1
+    MaxAmount: 1
+    Chance: 25

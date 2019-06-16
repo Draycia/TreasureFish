@@ -1,0 +1,12 @@
+name: TreasureFish
+version: ${project.version}
+main: net.draycia.treasurefish.TreasureFish
+api-version: 1.13
+depend: [mcMMO]
+commands:
+  treasurechance:
+    description: Tells you the chance at which treasure mobs will spawn.
+    permission: treasurefish.chance
+  treasurefish:
+    description: Base Treasure Fish command.
+    permission: treasurefish.basecommand
